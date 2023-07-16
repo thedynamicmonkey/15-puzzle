@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>15 Puzzle Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="heading">
+        <p>15 Puzzle</p>
+    </div>
+    <div id="board">
+      <canvas id="display" width="400" height="400"></canvas>
+      <div id="menu">
+        <div id="content">
+          <p id="moves">Moves: </p><br><br>
+          <p>Try getting the blocks into ascending order: left to right, top to bottom.</p>
+          <p>Click any block next to the space to swap them.</p>
+          <br>
+          <span class="size">Size:</span> <input id="size" type="number" min="3" max="5" value="4">
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <p>Made with ❤️ by Nitish Shaw</p>
+        <p>Open source project, built for IIT Kharagpur</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
